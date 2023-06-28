@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\ASUS\Desktop\html\veg-logo.jpeg">
+    <style>
+        body{
+            background-image: url(https://cdn.cbeditz.com/cbeditz/large/solid-wall-texture-black-background-hd-download-11652769554plwjv7r6ga.jpg);
+            
+        }
+        p{
+            background-color: green;
+            text-align: center;
+            font-size: 35px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(242, 243, 243);
+        }
+        .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+ }
+ 
+ .gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+ }
+ figcaption{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:bisque;
+    text-align: center;
+    font-size: 30px;
+ }
+ img{
+    position: sticky;
+    width: 20%;
+    height: auto;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ h1{
+    text-align: center;
+    position: sticky;
+    
+ }
+ .container{
+    width: 100%;
+    margin-left: auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+ }
+ .container img{
+    margin:0px;
+    max-width: 100%;
+    display:block;
+    transition: transform 0.5s;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+ }
+ .container:hover img{
+    transform:scale(1.3);
+ }
+    </style>
+</head>
+<body>
+    <p>Veg Recipies</p>
+    <div class="gallery">
+        <figure>
+            <div class="container">
+        <a href="file:///C:/Users/ASUS/Desktop/college-html/Dal-Makhani.html"><img src="https://www.funfoodfrolic.com/wp-content/uploads/2023/04/Dal-Makhani-Blog.jpg" title="Dal-Makhani" alt="Photo 1"></a>
+            </div>
+        <figcaption>Dal-Makhani</figcaption>
+    </figure>
+    <figure>
+        <div class="container">
+       <a href="file:///C:/Users/ASUS/Desktop/college-html/Pav-bhaji.html"><img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Instant-Pot-Mumbai-Pav-Bhaji-Recipe.jpg" title="Pawbhaji" alt="Photo 2"></a>
+        </div>
+        <figcaption>Pav bhaji</figcaption>
+    </figure>
+    <figure>
+        <div class="container">
+        <a href="file:///C:/Users/ASUS/Desktop/college-html/dosa.html"><img src="https://www.daringgourmet.com/wp-content/uploads/2023/06/Dosa-Recipe-3.jpg" title="Dosa" alt="Photo 3"></a>
+        </div>
+        <figcaption>Dosa</figcaption>
+    </figure>
+    <figure>
+        <div class="container">
+        <a href="file:///C:/Users/ASUS/Desktop/college-html/cholebhature.html"><img src="https://static.toiimg.com/thumb/53314156.cms?imgsize=1762111&width=800&height=800" title="chole bhature" alt="Photo 4"></a>
+    </div>
+        <figcaption>Chole Bhature</figcaption>
+    </figure>
+    <figure>
+        <div class="container">
+        <a href="C:\Users\ASUS\Desktop\college-html\palak panner.html"><img src="https://www.indianveggiedelight.com/wp-content/uploads/2017/10/palak-paneer-recipe-featured.jpg" title="palak panner" alt="Photo 5"></a>
+    </div>
+        <figcaption>Palak Panner</figcaption>
+    </figure>
+    <figure>
+        <div class="container">
+        <a href="C:\Users\ASUS\Desktop\college-html\Panner-Butter-Masala.html"><img src="https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg" title="Panner Butter Masala" alt="Photo 6"></a>
+    </div>
+        <figcaption>Panner Butter Masala</figcaption>
+    </figure>
+        <!-- Add more images as needed -->
+     </div>
+</body>
+</html>
